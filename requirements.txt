@@ -4,3 +4,4 @@ numpy==1.23.5
 tensorflow
 opencv-python-headless
 Pillow
+matplotlib>=3.6.0
