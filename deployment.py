@@ -40,7 +40,7 @@ def dog_cat_classifier(img, model):
     # carryout predictions
     prediction_rate = model.predict(data)
     prediction = prediction_rate.round()
-    return  prediction,prediction_rate[0][0]
+    return  prediction,prediction_rate
 #prompt user for an image
 uploaded_image = st.file_uploader("Select an image with Cat or Dog Image...", type=['webp','jfif','png', 'jpg', 'jpeg'])
 
